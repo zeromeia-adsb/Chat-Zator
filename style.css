@@ -1,0 +1,91 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;;
+  background: url(foto_fundo.jpg) no-repeat;
+  background-size: cover;
+}
+.box-login{
+  width:560px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  color: white;
+}
+.box-login h1{
+  float: left;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 3.5em;
+  border-bottom: 6px solid cyan;
+  margin-bottom: 50px;
+  padding: 13px 0;
+}
+.textbox{
+  width: 100%;
+  overflow: hidden;
+  font-size: 20px;
+  padding: 8px 0;
+  margin: 8px 0;
+  border-bottom: 1px solid cyan;
+}
+.textbox i{
+  width: 26px;
+  float: left;
+  text-align: center;
+}
+.textbox input{
+  border: none;
+  outline: none;
+  background: none;
+  color: white;
+  font-size: 18px;
+  width: 80%;
+  float: left;
+  margin: 0 10px;
+}
+.botao-duplo{
+  display: inline-block;
+  width: 45%;
+  background: none;
+  border: 2px solid cyan;
+  color: cyan;
+  padding: 15px;
+  font-size: 18px;
+  font-weight: bolder;
+  cursor: pointer;
+  margin: 20px 12px;
+}
+.botao-duplo:hover {
+  background-color: cyan;
+  color: black;
+  font-weight: bolder;
+}
+.botao-unico {
+  width: 100%;
+  background: none;
+  border: 2px solid cyan;
+  color: cyan;
+  padding: 15px;
+  font-size: 18px;
+  font-weight: bolder;
+  cursor: pointer;
+  margin: 20px 0;
+}
+.botao-unico:hover {
+  background-color: cyan;
+  color: black;
+  font-weight: bolder;
+}
+.esqueceu-senha {
+  color: white;
+  font-size: 14px;
+  outline: none;
+  text-align: right;
+  text-decoration: none;
+}
+
+.esqueceu-senha:hover {
+  color: cyan;
+  text-decoration: none;
+}
